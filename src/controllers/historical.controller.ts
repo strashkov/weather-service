@@ -7,14 +7,7 @@ import {
 } from "./historical.dto.js";
 import { findWeather } from "../services/weather/historical.service.js";
 
-export function historicalData(
-  channel: WsapixChannel<
-    any,
-    {
-      cities?: Set<string>;
-    }
-  >,
-) {
+export function historicalData(channel: WsapixChannel<any, {}>) {
   channel.on("error", (client, message, data) => {
     client.send({
       type: data.type.replace("request", "response"),
