@@ -35,7 +35,7 @@ npm run db:prepare
 6. Start the application ad open the documentation:
 
 ```sh
-npm run build & npm run start & npm run docs
+npm run build && npm run start & npm run docs
 ```
 
 7. Local development
