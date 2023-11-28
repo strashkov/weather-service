@@ -11,7 +11,7 @@ export interface WeatherAttributes {
   pressureSurfaceLevel: number;
 }
 
-type WeatherAttributesNew = Omit<WeatherAttributes, "id">;
+export type WeatherAttributesNew = Omit<WeatherAttributes, "id">;
 
 export class Weather extends Model<WeatherAttributes, WeatherAttributesNew> {
   static modelName = "Weather";

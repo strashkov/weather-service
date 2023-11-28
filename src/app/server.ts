@@ -1,5 +1,5 @@
 import * as http from "http";
-import express, { Express } from "express";
+import express from "express";
 import { Wsapix } from "wsapix";
 import Ajv from "ajv";
 

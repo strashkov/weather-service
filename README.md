@@ -40,6 +40,13 @@ npm run build && npm run start & npm run docs
 
 7. Local development
 
+Start local server:
+
 ```sh
 npm run dev
+```
+
+Run tests:
+```sh
+npm run test
 ```
